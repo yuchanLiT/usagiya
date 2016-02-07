@@ -1,0 +1,173 @@
+body {
+    width: 100%;
+    height: 1600px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'ja blackboard';
+    src: url('KodomoRounded.otf') format('opentype'),
+}
+
+//#wrapper{
+//    width: 80%;
+//    margin: 0 auto;
+//}
+
+#home{
+    background-color:#bfd8d2;
+    padding: 50px 10px;
+}
+
+.slider{
+    float: right;
+    margin: 0px 110px 0px 0px; 
+}
+
+#blackboard{
+    height: 600px;
+    width: 293.19px;
+    margin: 5px 5px 5px 110px;
+    background-image: url(images/haikei1.jpg);
+    float: left;
+}
+
+#message{
+    clear: both;
+}
+
+@mixin link{
+//    font-family: 'ja blackboard';
+    display: block;
+    text-decoration: none;
+    margin: 90px auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+a.usagiya {
+    @include link;
+    color: black;
+}
+
+a.comment {
+    @include link;
+    color: black;
+}
+
+p.message1 {
+    font-family: Chalkduster;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px;
+}
+p.message2 {
+    font-family: Chalkduster;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+}
+
+#menu1{
+    background-color: RGB(251,218,208);
+    overflow: hidden;
+}
+
+.cut {
+        background: url(images/gizagiza.png) repeat-x;
+        height: 45px;
+        width: 100%;
+        position: absolute;
+        top: 1022.5px;
+        left: 0;
+        }
+.cut2 {
+        background: url(images/gizagiza2.png) repeat-x;
+        height: 45px;
+        width: 100%;
+        position: absolute;
+        top: 1976.5px;
+        left: 0;
+        }
+
+
+section.menu{
+    width: 175px;
+    height: 175px;
+    padding-bottom: 30px;
+    margin: 56.5px;
+//    font-family: '';
+    color: black;
+    font-size: 29px;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+}
+#form{
+    background-color: RGB(213,113,74);
+}
+
+.google{
+    text-align: center;
+}
+
+iframe{
+    margin: 50px;
+}
+
+
+
+/*インライン用*/
+.modal {
+	position: relative;
+	margin:10px auto;
+	max-width: 700px;
+	background: #fff;
+	padding: 20px;
+    
+    h1 {
+	    font-weight: bold;
+	    font-size: 50px;
+    	margin: 0 0 10px;
+    }
+    p{
+        font-size: 25px
+    }
+    .image img {
+	width:100%;
+	max-width: 500px;
+    
+    .popup-modal-dismiss {
+	text-align: center;
+    }
+    }
+}
+/*表示のエフェクト*/
+  .mfp-fade.mfp-bg {
+    opacity: 0.001; /* Chrome opacity transition bug */
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  .mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+  }
+  .mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+  }
+  .mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+  }
+  .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+  }

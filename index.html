@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>静岡理工科大学星陵中学校・高等学校のお弁当紹介ページ</title>
+    <LINK REL="SHORTCUT ICON" HREF="favicon.ico"> 
+    <link href="jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="jquery.bxslider.min.js"></script>
+ <script>$(document).ready(function(){
+  $('.bxslider').bxSlider({
+      slideWidth:800
+  }
+);
+});</script>
+<link rel="stylesheet" href="css/magnific-popup.css" />
+<script src="plugins/jquery.magnific-popup.min.js"></script>
+<script>$(function () {
+  $('.popup-modal').magnificPopup({
+    type: 'inline',
+    preloader: false
+  });
+  //閉じるリンクの設定
+  $(document).on('click', '.popup-modal-dismiss', function (e) { 
+    e.preventDefault();
+    $.magnificPopup.close();
+  });
+});</script>
+</head>
+<body>
+    <div id=wrapper> 
+    <div id=home>
+    <div class="slider">
+  <ul class="bxslider">
+  <li><img src="images/gyuu.jpg" /></li>
+  <li><img src="images/omu.jpg" /></li>
+  <li><img src="images/tsuna.jpg" /></li>
+  </ul>
+  </div>
+  
+  <div id=blackboard>
+    <a href="#menu1" class="usagiya">うさぎや<br>MENU</a>
+    <a href="#form" class="comment">予約</a>
+    <a href="reservation.html" class="comment">予約状況</a>
+    </div>
+
+
+    <div id="message">
+        <p class="message1">What will you eat today’s lanch?</p>
+        <p class="message2">This site introduce lunch menu of Seiryo.</p>
+        <p class="message2">It's for Seiryo junior and high shcool students!</p>
+    </div>
+       
+        </div>
+
+    <div id="menu1">
+    <div class="cut"></div>
+    
+    <a class="popup-modal" href="#inline-wrap1"><section class="menu"><img src="images/wahuupasuta.png" alt=""><br>和風パスタ</section></a>
+    <div id="inline-wrap1" class="mfp-hide modal">
+    <h1>和風パスタ</h1>
+    <div class="image"><img src="images/s.wafupasuta.png"></div>
+    <p>￥３５０</p>
+    </div>
+    <a class="popup-modal" href="#inline-wrap2"><section class="menu"><img src="images/gyuusuji.png" alt=""><br>牛スジ丼</section></a>
+    <div id="inline-wrap2" class="mfp-hide modal">
+    <h1>牛スジ丼</h1>
+    <div class="image"><img src="images/s.gyusuji.png"></div>
+    <p>￥３５０</p>
+    </div>
+    <a class="popup-modal" href="#inline-wrap3"><section class="menu"><img src="images/gyuudon.png" alt=""><br>牛丼</section></a>
+    <div id="inline-wrap3" class="mfp-hide modal">
+    <h1>牛丼</h1>
+    <div class="image"><img src="images/gyuudon.png"></div>
+    <p>￥３５０</p>
+    </div>
+    <a class="popup-modal" href="#inline-wrap4"><section class="menu"><img src="images/tendon.png" alt=""><br>天丼</section></a>
+    <div id="inline-wrap4" class="mfp-hide modal">
+    <h1>天丼</h1>
+    <div class="image"><img src="images/tendon.png"></div>
+    <p>￥３５０</p>
+    </div>
+    <a class="popup-modal" href="#inline-wrap5"><section class="menu"><img src="images/yakiniku.png" alt=""><br>焼肉ピラフ</section></a>
+    <div id="inline-wrap5" class="mfp-hide modal">
+    <h1>焼肉ピラフ</h1>
+    <div class="image"><img src="images/s.yakiniku.png"></div>
+    <p>￥３５０</p>
+    </div>
+    <a class="popup-modal" href="#inline-wrap6"><section class="menu"><img src="images/bibinba.png" alt=""><br>ビビンバ丼</section></a>
+    <div id="inline-wrap6" class="mfp-hide modal">
+    <h1>ビビンバ丼</h1>
+    <div class="image"><img src="images/s.bibinba.png"></div>
+    <p>￥３５０</p>
+    </div>
+    <a class="popup-modal" href="#inline-wrap7"><section class="menu"><img src="images/omurice.png" alt=""><br>オムライス</section></a>
+    <div id="inline-wrap7" class="mfp-hide modal">
+    <h1>オムライス</h1>
+    <div class="image"><img src="images/omurice.png"></div>
+    <p>￥３５０</p>
+    </div>
+    <a class="popup-modal" href="#inline-wrap8"><section class="menu"><img src="images/chikinpirafu.png" alt=""><br>チキンピラフ</section></a>
+    <div id="inline-wrap8" class="mfp-hide modal">
+    <h1>チキンピラフ</h1>
+    <div class="image"><img src="images/chikinpirafu.png"></div>
+    <p>￥３５０</p>
+    </div>
+    <a class="popup-modal" href="#inline-wrap9"><section class="menu"><img src="images/chuukadon.png" alt=""><br>中華丼</section></a>
+    <div id="inline-wrap9" class="mfp-hide modal">
+    <h1>中華丼</h1>
+    <div class="image"><img src="images/s.chukadon.png"></div>
+    <p>￥３５０</p>
+    </div>
+    <a class="popup-modal" href="#inline-wrap10"><section class="menu"><img src="images/locomoco.png" alt=""><br>ロコモコ丼</section></a>
+    <div id="inline-wrap10" class="mfp-hide modal">
+    <h1>ロコモコ丼</h1>
+    <div class="image"><img src="images/s.locomoco.png"></div>
+    <p>￥３５０</p>
+    </div>
+    <a class="popup-modal" href="#inline-wrap11"><section class="menu"><img src="images/ontamagyuudon.png" alt=""><br>牛丼（卵）</section></a>
+    <div id="inline-wrap11" class="mfp-hide modal">
+    <h1>牛丼（卵）</h1>
+    <div class="image"><img src="images/ontamagyuudon.png"></div>
+    <p>￥３５０</p>
+    </div>
+    </div>
+    
+    <div id="form">
+    <div class="cut2"></div>
+    <div class="google">
+    <iframe src="https://docs.google.com/forms/d/1X67eMymgscNUt9TVJOcLsI63qKEU41OW7hEEs4QpALw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...</iframe>
+    </div>
+    </div>
+    </div>
+</body>
+</html>    
